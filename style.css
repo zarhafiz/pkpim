@@ -590,7 +590,32 @@ textarea {
   line-height: 2rem;
 }
 
-.map-contact,
-i {
-  margin-right: 20px;
+.projek-kami {
+  background: url(/image/projek-kami.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.projek-kami .container {
+  height: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.projek-content img {
+  width: 100%;
+  display: flex;
+}
+
+.text-project {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1rem;
+  padding-top: 10px;
 }
