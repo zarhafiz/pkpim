@@ -43,3 +43,17 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+var macy = Macy({
+  container: "#macy",
+  trueOrder: false,
+  waitForImages: false,
+  margin: 5,
+  columns: 4,
+  breakAt: {
+    1200: 5,
+    940: 3,
+    520: 2,
+    400: 1,
+  },
+});
